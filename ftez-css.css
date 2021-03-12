@@ -1,0 +1,291 @@
+/*Chatbox*/
+.CBBox #cp-main {
+  margin-left: 0px;
+  width: 100%;
+}
+
+.CBBox #cp-main .panel {
+  background-color: #0b0b0e;
+  padding: 0px;
+}
+
+#chatbox_header {
+  background-color: RGBA(27, 29, 37, 0.5);
+  height: 20px;
+  padding: 3px 10px;
+  font-family: "Cormorant Infant", sans-serif;
+  border-bottom: 1px solid #1b1d25;
+}
+
+h2.chatbox-title a {
+  font-size: 16px;
+  font-family: "Cormorant Infant" !important;
+  color: #dfe1e3;
+}
+
+#chatbox_channels,
+#chatbox_members {
+  border-right: 0px;
+  bottom: 30px;
+  color: #dfe1e3;
+  overflow: auto;
+  position: absolute;
+  top: 26px !important;
+  width: 180px;
+}
+
+#chatbox_channels .member-title,
+#chatbox_members .member-title {
+  border: 0;
+  color: #868ea5;
+  font-family: "Cormorant Infant" !important;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 5px 0px;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+  text-align: right;
+  opacity: 0.3;
+}
+
+#chatbox p {
+  text-indent: 0px;
+}
+
+#tab_selector_cb {
+  border: 0px;
+}
+
+#cb_connect_option {
+  align-items: center;
+  background: #13141a;
+  border: 1px solid #1b1d25;
+  box-shadow: 0 0 5px #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 5px;
+  width: 350px;
+  top: 32px;
+  left: -85px;
+}
+
+.cb_connect_avatar {
+  background-color: transparent !important;
+  background-position: top !important;
+  background-size: cover;
+  border: 6px solid #121217 !important;
+  border-radius: 100%;
+  height: 120px !important;
+  margin: auto;
+  width: 120px !important;
+  order: 1;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cb_connect_name {
+  align-self: center;
+  font-family: "Cormorant Infant";
+  font-size: 24px !important;
+  line-height: 110%;
+  margin-top: -20px !important;
+  order: 2;
+  padding: 0 15px;
+  text-align: left !important;
+  width: 185px;
+  font-weight: 400 !important;
+}
+.cb_connect_button {
+  align-self: center;
+  left: 65px;
+  order: 3;
+  position: relative;
+  margin-top: -20px !important;
+  top: -20px;
+}
+.cb_connect_button span {
+  font-size: 0px;
+  border: none !important;
+  padding: 0px;
+  border-radius: 0px !important;
+}
+.cb_connect_button span:after {
+  content: "Zapraszamy na chatboxa!";
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 15px;
+  font-family: Cormorant, sans-serif;
+  background: rgba(27, 29, 37, 0.5) !important;
+  border: 1px solid #1b1d25 !important;
+}
+ul.online-users span,
+ul.away-users span {
+  font-size: 0px;
+}
+#chatbox_channels ul li,
+#chatbox_members ul li {
+  margin: 2px 2px 2px 0;
+}
+#chatbox_members span.chatbox-username,
+#chatbox_members span.chatbox-user-username {
+  font-size: 13px !important;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+#chatbox .user span {
+  font-weight: 700;
+}
+#chatbox .user b,
+#chatbox .user strong {
+  color: inherit;
+}
+
+#chatbox {
+  bottom: 40px;
+  left: 181px;
+  line-height: 10px;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  padding: 0px 10px 5px;
+}
+#chatbox_channels,
+#chatbox_members {
+  border-right: 0;
+  color: #dfe1e3;
+  overflow: auto;
+  position: absolute;
+  top: 47px !important;
+  width: 180px;
+  bottom: 0px;
+}
+#chatbox_header {
+  background-color: rgba(27, 29, 37, 0.5);
+  border-bottom: 1px solid #1b1d25;
+  font-family: "Cormorant Infant", sans-serif;
+  height: 20px;
+  padding: 20px 10px;
+  position: relative;
+  top: -12px;
+}
+.chatbox-title {
+  position: absolute;
+  top: 27px;
+  left: 30px;
+}
+h2.chatbox-title a {
+  color: #dfe1e3;
+  font-family: "Cormorant Infant" !important;
+  font-size: 14px;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#nb-users-connected {
+  background-color: #1b1d25;
+  padding: 2px 10px;
+  margin: 0 5px;
+  color: inherit;
+  font-size: 17px;
+  border-bottom: 2px solid #0b0b0e;
+  text-shadow: 1px 1px 3px black;
+}
+.chatbox-options {
+  float: right;
+  font-size: 14px;
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  font-family: "Cormorant Infant";
+  text-transform: lowercase;
+  top: 30px;
+}
+.chatbox-options {
+  float: right;
+  font-size: 0px;
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  font-family: "Cormorant Infant";
+  text-transform: lowercase;
+  top: 27px;
+}
+.chatbox-options a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 15px;
+  background: rgba(27, 29, 37, 0.5) !important;
+  border: 1px solid #1b1d25 !important;
+  color: #dfe1e3 !important;
+  padding: 2px 0;
+  width: 90px;
+  text-align: center;
+}
+#chatbox_footer input.post {
+  background: rgba(27, 29, 37, 1) !important;
+  border: 0;
+  border-bottom: 1px solid #1b1d25;
+  color: #dfe1e3 !important;
+  cursor: text;
+  padding: 5px 5px;
+  margin: 0px 10px 0px 5px;
+  font-size: 11px;
+  width: 540px;
+}
+#chatbox_footer #text_editor_iframe,
+#chatbox_footer input.post,
+#chatbox_footer textarea.inputbox,
+#chatbox_footer textarea.post {
+  color: rgb(223, 225, 227);
+}
+#chatbox_footer input#submit_button {
+  background: rgba(27, 29, 37, 0.5) !important;
+  border: 1px solid #1b1d25 !important;
+  color: #dfe1e3 !important;
+  cursor: pointer;
+  font-family: Cormorant, sans-serif;
+  font-size: 15px;
+  height: 28px;
+  padding: 2px 11px;
+  box-shadow: none;
+  margin: 0px;
+  width: 60px;
+}
+#chatbox_footer label {
+  font-family: "Cormorant Infant";
+  font-size: 15px;
+  padding: 5px 0px;
+}
+#chatbox_channels .member-title,
+#chatbox_members .member-title {
+  border-bottom: 2px solid #1b1d25;
+  color: #868ea5;
+  font-family: "Cormorant Infant" !important;
+  font-size: 15px;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 8px 5px 4px;
+  text-align: center;
+  background: #131419;
+  margin-bottom: 10px;
+}
+#chatbox_members h4.member-title.away {
+  margin-top: 10px;
+}
+#chatbox_footer.right-box label,
+#chatbox_footer.right-box.fontbutton,
+#chatbox_footer #help-button {
+  font-family: "Cormorant Infant";
+  font-size: 15px;
+  padding: 2px 3px;
+  background: rgba(27, 29, 37, 0.5) !important;
+  color: #dfe1e3 !important;
+  border: 1px solid #1b1d25;
+  box-shadow: none;
+  margin: 0px 1px;
+}
